@@ -102,9 +102,7 @@ def main():
     db.pre_check()
     # init database connection and utils
     data = database.Database()
-    # do check
-    db.pre_check()
-
+    # pass ref
     guest = GuestBook(data)
     while True:
         guest.start()
