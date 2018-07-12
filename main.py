@@ -63,7 +63,7 @@ class GuestBook:
         self.read()
         data_row = self.dump()
         print("Input ID to Update")
-        option = input("Select ID to Delete：")
+        option = input("Select ID to Update：")
         print("=============================================")
         print("|| data with empty field's will be reserved ||")
         print("=============================================")
